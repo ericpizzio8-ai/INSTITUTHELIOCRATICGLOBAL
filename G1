@@ -1,0 +1,20 @@
+# Grok says hello in 2026 style 🚀
+
+def grok_greeting(name="Human"):
+    return f"Hello, {name}! It's January 2026, and I'm Grok 4, built by xAI. Ready to explore the universe?"
+
+# Main execution
+if __name__ == "__main__":
+    user_name = input("What's your name? (or press Enter for default): ").strip()
+    if not user_name:
+        user_name = "curious explorer"
+    
+    greeting = grok_greeting(user_name.capitalize())
+    print(greeting)
+    
+    # Bonus: A little ASCII art
+    print("\n")
+    print("    /\\_/\\")
+    print("   ( o.o )")
+    print("    > ^ <")
+    print("  Grok is here!")
